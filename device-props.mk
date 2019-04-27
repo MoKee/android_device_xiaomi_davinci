@@ -51,6 +51,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
     debug.sf.enable_hwc_vds=1 \
     persist.debug.wfd.enable=1
 
+# Maintainer
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.mk.maintainer=Pig
+
 # Media
 PRODUCT_PROPERTY_OVERRIDES += \
     audio.offload.video=true
