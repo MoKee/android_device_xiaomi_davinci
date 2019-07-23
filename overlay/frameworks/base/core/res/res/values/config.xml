@@ -1086,7 +1086,4 @@
         <item>7,1</item>
         <item>9,1</item>
     </string-array>
-
-    <!-- Show a custom view for FOD -->
-    <bool name="config_needCustomFODView">true</bool>
 </resources>
