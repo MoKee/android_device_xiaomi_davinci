@@ -9,8 +9,8 @@
 
 # HALs
 /(vendor|system/vendor)/bin/hw/android\.hardware\.biometrics\.fingerprint@2\.1-service\.xiaomi_davinci              u:object_r:hal_fingerprint_default_exec:s0
-/(vendor|system/vendor)/bin/hw/vendor\.lineage\.camera\.motor@1.0-service\.xiaomi_davinci                           u:object_r:hal_lineage_camera_motor_default_exec:s0
-/(vendor|system/vendor)/bin/hw/vendor\.lineage\.biometrics\.fingerprint\.inscreen@1.0-service\.xiaomi_davinci       u:object_r:hal_lineage_fod_default_exec:s0
+/(vendor|system/vendor)/bin/hw/vendor\.mokee\.camera\.motor@1.0-service\.xiaomi_davinci                           u:object_r:hal_mokee_camera_motor_default_exec:s0
+/(vendor|system/vendor)/bin/hw/vendor\.mokee\.biometrics\.fingerprint\.inscreen@1.0-service\.xiaomi_davinci       u:object_r:hal_mokee_fod_default_exec:s0
 
 # Thermal
 /(vendor|system/vendor)/bin/mi_thermald            u:object_r:mi_thermald_exec:s0

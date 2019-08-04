@@ -1,0 +1,8 @@
+# Allow binder communication with hal_fingerprint_default
+binder_call(hal_mokee_fod_default, hal_fingerprint_default)
+
+# Allow hal_mokee_fod_default to hal_fingerprint_hwservice
+allow hal_mokee_fod_default hal_fingerprint_hwservice:hwservice_manager find;
+
+# Allow hal_mokee_fod_default to read and write to sysfs_fod
+allow hal_mokee_fod_default sysfs_fod:file rw_file_perms;
