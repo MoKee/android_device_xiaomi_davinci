@@ -23,7 +23,7 @@ PRODUCT_AAPT_PREF_CONFIG := xxhdpi
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay \
-    $(LOCAL_PATH)/overlay-lineage
+    $(LOCAL_PATH)/overlay-mokee
 
 # Properties
 -include $(LOCAL_PATH)/device-props.mk
@@ -46,7 +46,7 @@ PRODUCT_PACKAGES += \
 
 # Camera Motor
 PRODUCT_PACKAGES += \
-    vendor.lineage.camera.motor@1.0-service.xiaomi_davinci
+    vendor.mokee.camera.motor@1.0-service.xiaomi_davinci
 
 # Display
 PRODUCT_PACKAGES += \
@@ -54,7 +54,7 @@ PRODUCT_PACKAGES += \
 
 # Fingerprint
 PRODUCT_PACKAGES += \
-    lineage.biometrics.fingerprint.inscreen@1.0-service.xiaomi_davinci
+    mokee.biometrics.fingerprint.inscreen@1.0-service.xiaomi_davinci
 
 # HIDL
 PRODUCT_PACKAGES += \
@@ -99,7 +99,7 @@ PRODUCT_COPY_FILES += \
 
 # Livedisplay
 PRODUCT_PACKAGES += \
-    lineage.livedisplay@2.0-service-sdm
+    mokee.livedisplay@2.0-service-sdm
 
 # Net
 PRODUCT_PACKAGES += \
@@ -147,7 +147,7 @@ PRODUCT_PACKAGES += \
 
 # Trust HAL
 PRODUCT_PACKAGES += \
-    lineage.trust@1.0-service
+    mokee.trust@1.0-service
 
 # WiFi Display
 PRODUCT_PACKAGES += \

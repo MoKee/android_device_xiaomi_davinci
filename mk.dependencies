@@ -4,6 +4,10 @@
     "target_path": "kernel/xiaomi/davinci"
   },
   {
+    "repository": "android_vendor_xiaomi_davinci",
+    "target_path": "vendor/xiaomi/davinci"
+  },
+  {
     "repository": "android_packages_resources_devicesettings",
     "target_path": "packages/resources/devicesettings"
   }
