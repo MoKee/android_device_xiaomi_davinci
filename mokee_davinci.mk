@@ -7,11 +7,11 @@
 # Inherit from davinci device
 $(call inherit-product, device/xiaomi/davinci/device.mk)
 
-# Inherit some common Lineage stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+# Inherit some common MK stuff.
+$(call inherit-product, vendor/mokee/config/common_full_phone.mk)
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := lineage_davinci
+PRODUCT_NAME := mokee_davinci
 PRODUCT_DEVICE := davinci
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MANUFACTURER := Xiaomi

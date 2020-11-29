@@ -14,14 +14,14 @@
  * limitations under the License.
  */
 
-package org.lineageos.devicesettings.popupcamera;
+package org.mokee.devicesettings.popupcamera;
 
 import android.os.Bundle;
 import android.view.MenuItem;
 import androidx.preference.Preference;
 import androidx.preference.Preference.OnPreferenceChangeListener;
 import androidx.preference.PreferenceFragment;
-import org.lineageos.devicesettings.R;
+import org.mokee.devicesettings.R;
 
 public class PopupCameraSettingsFragment
     extends PreferenceFragment implements OnPreferenceChangeListener {

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.lineageos.devicesettings.utils;
+package org.mokee.devicesettings.utils;
 
 import android.util.Log;
 import java.io.BufferedReader;
